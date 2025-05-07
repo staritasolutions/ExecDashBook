@@ -1,0 +1,17 @@
+# Overview {.unnumbered}
+
+This document provides a comprehensive overview of the steps and procedures used to generate the data displayed in the Executive Dashboard. It serves as a guide to help users understand how the data was obtained, how each metric is calculated, and where within the original data sources users can go to reproduce the figures shown on the dashboard.
+
+**A note on timing and updates:** The Executive Dashboard is updated Tuesday mornings. As a result, even though the data sources may be updated more frequently (as described [here](#data-sources)\), the dashboard will not reflect those updates until the next Tuesday. The driving force behind this decision relates to the timing in which we receive attendance data from FAME. Schools often adjust the previous week's attendance on the following Monday. We then receive those adjustments Monday night. To have the previous week's fully adjusted attendance numbers, we need to wait until Tuesday mornings to update the dashboard.
+
+The remaining documentation is organized in the following manner:
+
+### Section 1: Data Sources
+
+-   Outlines the various data sources that populate the dashboard, and describes the data update schedule
+
+### Sections 2-5: Dashboard Tabs
+
+-   Each of these sections corresponds to a specific dashboard tab, walking through each displayed metric. For each metric, the documentation details the calculation method and identifies where in the source software it can be verified or reproduced.
+
+We hope this document proves helpful in deepening your understanding of the metrics presented in the Executive Dashboard. By clearly outlining how each metric is calculated and pointing to the exact sources within the original softwares, our goal is to provide full transparency and enable users to understand with confidence the metrics and figures displayed.

@@ -1,0 +1,152 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Executive Dashboard Documentation",
+    "section": "",
+    "text": "Overview\nThis document provides a comprehensive overview of the steps and procedures used to generate the data displayed in the Executive Dashboard. It serves as a guide to help users understand how the data was obtained, how each metric is calculated, and where within the original data sources users can go to reproduce the figures shown on the dashboard.\nA note on timing and updates: The Executive Dashboard is updated Tuesday mornings. As a result, even though the data sources may be updated more frequently (as described here), the dashboard will not reflect those updates until the next Tuesday. The driving force behind this decision relates to the timing in which we receive attendance data from FAME. Schools often adjust the previous week’s attendance on the following Monday. We then receive those adjustments Monday night. To have the previous week’s fully adjusted attendance numbers, we need to wait until Tuesday mornings to update the dashboard.\nThe remaining documentation is organized in the following manner:\n\nSection 1: Data Sources\n\nOutlines the various data sources that populate the dashboard, and describes the data update schedule\n\n\n\nSections 2-5: Dashboard Tabs\n\nEach of these sections corresponds to a specific dashboard tab, walking through each displayed metric. For each metric, the documentation details the calculation method and identifies where in the source software it can be verified or reproduced.\n\nWe hope this document proves helpful in deepening your understanding of the metrics presented in the Executive Dashboard. By clearly outlining how each metric is calculated and pointing to the exact sources within the original softwares, our goal is to provide full transparency and enable users to understand with confidence the metrics and figures displayed.",
+    "crumbs": [
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Data Sources",
+    "section": "",
+    "text": "1.1 CRM",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Data Sources</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "References"
+    ]
+  },
+  {
+    "objectID": "intro.html#fame",
+    "href": "intro.html#fame",
+    "title": "1  Data Sources",
+    "section": "1.2 FAME",
+    "text": "1.2 FAME",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Data Sources</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#meevo",
+    "href": "intro.html#meevo",
+    "title": "1  Data Sources",
+    "section": "1.3 Meevo",
+    "text": "1.3 Meevo",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Data Sources</span>"
+    ]
+  },
+  {
+    "objectID": "data_sources.html",
+    "href": "data_sources.html",
+    "title": "1  Data Sources",
+    "section": "",
+    "text": "1.1 CRM\nSource: Direct connection to CRM database\nSchedule: Updated weekly Tuesday mornings",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Data Sources</span>"
+    ]
+  },
+  {
+    "objectID": "data_sources.html#fame",
+    "href": "data_sources.html#fame",
+    "title": "1  Data Sources",
+    "section": "1.2 FAME",
+    "text": "1.2 FAME\nWe are dependent on FAME delivering accurate and timely data sets to our data warehouse.\n\nAttendance\nSource: Advantage and Freedom file exports from FAME\nSchedule: Updated daily at the end of day\n\n\nAdhoc Student Data\nSource: Advantage and Freedom file exports from FAME\nSchedule: Updated Monday mornings (1/week)",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Data Sources</span>"
+    ]
+  },
+  {
+    "objectID": "data_sources.html#meevo",
+    "href": "data_sources.html#meevo",
+    "title": "1  Data Sources",
+    "section": "1.3 Meevo",
+    "text": "1.3 Meevo\nSource: Meevo Daily Data Stream API (https://dds.meevoapi.com/Introduction.htm)\nSchedule: Updated daily at the end of day",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Data Sources</span>"
+    ]
+  },
+  {
+    "objectID": "data_sources.html#crm",
+    "href": "data_sources.html#crm",
+    "title": "1  Data Sources",
+    "section": "1.2 CRM",
+    "text": "1.2 CRM\nSource: Direct connection to CRM database\nSchedule: Updated weekly Tuesday mornings",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Data Sources</span>"
+    ]
+  },
+  {
+    "objectID": "kpi_overview.html",
+    "href": "kpi_overview.html",
+    "title": "2  KPI Overview",
+    "section": "",
+    "text": "Census\nData Source: Freedom Adhoc Report\nCalculation: Count of students with attendance status of “Currently Attending”\n\n\nLOA\nData Source: Freedom Adhoc Report\nCalculation: Count of students with attendance status of “Leave of Absence”\n\n\nYTD Drops\nData Source: Freedom Adhoc Report\nCalculation: Count of students with a drop date within the current year\n\n\nYTD Reenrolls\nData Source: Freedom Adhoc Report\nCalculation: Count of students with a Reenroll date within the current year\n\n\nYTD Net Drop %\nData Source: Freedom Adhoc Report\nCalculation: \\(\\frac{(\\texttt{YTD Drops} - \\texttt{YTD Reenrolls}) \\times \\texttt{Days Remaining in Year}}{ \\texttt{Census}}\\)\n\n\nHours\nData Source: Freedom Attendance Report\nCalculation: Sum of all hours\n\n\nAttendance\nData Source: Freedom Attendance Report\nCalculation: Sum of all hours divided by sum of all scheduled hours\n\n\nService $\nData Source: Meevo API\nCalculation: Sum of all service sales\n\n\nProduct $\nData Source: Meevo API\nCalculation: Sum of all product sales\n\n\nRebooking %\nSee Meevo Section for details.\n\n\nLead\nData Source: CRM\nCalculation: Count of CRM records with “Date Submitted” within selected date range",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>KPI Overview</span>"
+    ]
+  },
+  {
+    "objectID": "meevo.html",
+    "href": "meevo.html",
+    "title": "5  Meevo",
+    "section": "",
+    "text": "Service Sales\nThis is the sum of all sales made through a service.\nRecreation in Meevo: Number can be found in an MA225 report as \\(\\texttt{Service} - \\texttt{Refunds}\\)\nNorth Star Group Only: Number can be found in an MA225 report as \\(\\texttt{Service} + \\texttt{Gift Cards} + \\texttt{Mem. EFTs}\\) minus all corresponding refunds\nAugust Group Only: Number can be found in an MA225 report as either \\(\\texttt{Service}\\) or \\(\\texttt{Packages}\\) minus all corresponding refunds (depending on the “Sale Type Selection”)",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Meevo</span>"
+    ]
+  },
+  {
+    "objectID": "crm.html",
+    "href": "crm.html",
+    "title": "3  CRM",
+    "section": "",
+    "text": "Lead-Type Designation\nRecords are assigned a lead-type based on the first touch point in their ‘URL Source’. Certain strings such as ‘ppc’ and ‘webiste home-page’ are used to identify the lead type.\n\n\nProgram Designation\nPrograms are assigned to CRM records with the following logic:\n\nIf the record is assigned to a Start Date, the program in the ‘Start Date Name’ is assigned as the program.\nIf there is no Start Date, the ‘Program’ column designates the program.\nIf there is no Start Date and no Program, the record is assigned by default to ‘Cosmetology’.\n\n\n\nConversions Percentages\nA conversion ‘A2B’ is the percentage of A that converted to B at any point, given the date of A is within the specified date range. For example, P2T takes all people with a prospect date within the date range, and returns the percent of those prospects that convert to tour status at any point in time. This IS NOT the ratio of total T’s divided by total P’s in a date range.\n\n\nLead-Flow Counts\n(Applies to School Comparisons Counts Table and all plots on Time Series tab)\nThese are simply counts of the number of records with a status date within the specified date range.\n\n\nStart Dates Tab\n\nStart Date Table\nNLI: Count of records with a “No Longer Interested” Date\nLead-Enrolled: Count of records currently in each status\nEnrollment Prediction: Starita Solutions’ prediction of the number of enrollments you should anticipate from a statistical model based on:\n\nThe current lead-flow status\nHow far away the start date is\nThe time of year of the start date\nThe school and program\n\nGoal: A start date goal provided by the school.\nPast Avg Leads for Start: The historical average number of leads for a start date with the same program, school, and month of the year.\nTotal Leads for Start: The total number of leads obtained for the start date. Using this and “Past Avg Leads for Start” you should be able to have a better idea of how many more leads you might be able to expect before the start date.\n\n\nUnassigned Leads Breakdown Table\nLead-Enrolled: Count of records currently in each status of all records that are not assigned to a start date.\nPrediction: Starita Solutions’ prediction of the number of enrollments you could anticipate from the unassigned records in your CRM.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>CRM</span>"
+    ]
+  },
+  {
+    "objectID": "freedom.html",
+    "href": "freedom.html",
+    "title": "4  Freedom",
+    "section": "",
+    "text": "Hours\nActual Hours: Sum of all hours clocked by students during the selected date range\nScheduled Hours: Sum of all hours scheduled for students during the selected date range\nAttendance Percent: \\((\\frac{\\texttt{Actual Hours}}{\\texttt{Scheduled Hours}}*100)\\%\\)\n\n\nHours at Drop Distribution Plot\nThis “rain cloud plot” gives a general idea of when students tend to drop.\n\nThe “Cloud”: This is an approximate distribution of the hours at which students drop\nThe “Rain”: Each point, or “raindrop”, represents 1 student and the hour at which they dropped.\n\n\n\nScorecard\nThis table is almost entirely the same table that can be found on the PMAE Scorecard dashboard. The main purpose of this table is to track a school’s census over time. Because of how involved this calculation of the census is, we will not explain it here. If you have questions about the calculations involved in this table, please contact us at support@staritasolutions.com.\n\nScorecard Projections\nOne feature not included in the PMAE Scorecard dashboard is census projections. Projections in this table are highlighted blue. We use future graduation dates and Starita Solutions’ enrollment prediction to project the census for the next 6 months.\n\n\n\nAdhoc\nLow Academic Average: The number of students that have a PAvg or WAvg below 70%.\nLow Attendance %: The number of students that have an attendance percentage below 90%.\nFPs with Balance: The number of students that have a positive balance.\n\nAdhoc Table\nThis table is a simple adhoc table with information on each student (with a student being identifiable by the Acct # and the School). A similar report can be pulled individually for each school in the Freedom software.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Freedom</span>"
+    ]
+  },
+  {
+    "objectID": "meevo.html#learning-leader-tabs",
+    "href": "meevo.html#learning-leader-tabs",
+    "title": "5  Meevo",
+    "section": "5.1 Learning Leader Tabs",
+    "text": "5.1 Learning Leader Tabs\nThe Learning Leader tabs keep track of the metrics listed above for each Learning Leader. In Meevo, Learning Leaders are attached to specific sales and appointments, so we simply calculate the metrics for each Learning Leader.\nRecreation in Meevo: None of these metrics can be found easily in Meevo as Meevo doesn’t provide reporting designed to report specific metrics for Learning Leaders.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Meevo</span>"
+    ]
+  }
+]

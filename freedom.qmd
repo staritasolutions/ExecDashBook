@@ -1,0 +1,38 @@
+# Freedom
+
+### Hours
+
+**Actual Hours:** Sum of all hours clocked by students during the selected date range
+
+**Scheduled Hours:** Sum of all hours scheduled for students during the selected date range
+
+**Attendance Percent:** $(\frac{\texttt{Actual Hours}}{\texttt{Scheduled Hours}}*100)\%$
+
+### Hours at Drop Distribution Plot
+
+This "rain cloud plot" gives a general idea of when students tend to drop.
+
+1.  The "Cloud": This is an approximate distribution of the hours at which students drop
+
+2.  The "Rain": Each point, or "raindrop", represents 1 student and the hour at which they dropped.
+
+### Scorecard
+
+This table is almost entirely the same table that can be found on the [PMAE Scorecard dashboard](https://staritasolutions.shinyapps.io/PMAEScorecard/). The main purpose of this table is to track a school's census over time. Because of how involved this calculation of the census is, we will not explain it here. If you have questions about the calculations involved in this table, please contact us at [support@staritasolutions.com](mailto:support@staritasolutions.com).
+
+
+#### Scorecard Projections
+
+One feature not included in the PMAE Scorecard dashboard is census projections. Projections in this table are highlighted blue. We use future graduation dates and Starita Solutions' enrollment prediction to project the census for the next 6 months.
+
+### Adhoc
+
+**Low Academic Average:** The number of students that have a PAvg or WAvg below 70%.
+
+**Low Attendance %:** The number of students that have an attendance percentage below 90%.
+
+**FPs with Balance:** The number of students that have a positive balance.
+
+#### Adhoc Table
+
+This table is a simple adhoc table with information on each student (with a student being identifiable by the Acct \# and the School). A similar report can be pulled individually for each school in the Freedom software.

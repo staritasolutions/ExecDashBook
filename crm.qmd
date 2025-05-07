@@ -1,0 +1,53 @@
+# CRM
+
+### Lead-Type Designation
+
+Records are assigned a lead-type based on the first touch point in their 'URL Source'. Certain strings such as 'ppc' and 'webiste home-page' are used to identify the lead type.
+
+### Program Designation
+
+Programs are assigned to CRM records with the following logic:
+
+1.  If the record is assigned to a Start Date, the program in the 'Start Date Name' is assigned as the program.
+2.  If there is no Start Date, the 'Program' column designates the program.
+3.  If there is no Start Date and no Program, the record is assigned by default to 'Cosmetology'.
+
+### Conversions Percentages
+
+A conversion 'A2B' is the percentage of A that converted to B at any point, given the date of A is within the specified date range. For example, P2T takes all people with a prospect date within the date range, and returns the percent of those prospects that convert to tour status at any point in time. This IS NOT the ratio of total T's divided by total P's in a date range.
+
+### Lead-Flow Counts
+
+(Applies to School Comparisons Counts Table and all plots on Time Series tab)
+
+These are simply counts of the number of records with a status date within the specified date range.
+
+### Start Dates Tab
+
+#### [Start Date Table]{.underline}
+
+**NLI:** Count of records with a "No Longer Interested" Date
+
+**Lead-Enrolled:** Count of records *currently* in each status
+
+**Enrollment Prediction:** Starita Solutions' prediction of the number of enrollments you should anticipate from a statistical model based on:
+
+1.  The current lead-flow status
+
+2.  How far away the start date is
+
+3.  The time of year of the start date
+
+4.  The school and program
+
+**Goal:** A start date goal provided by the school.
+
+**Past Avg Leads for Start:** The historical average number of leads for a start date with the same program, school, and month of the year.
+
+**Total Leads for Start:** The total number of leads obtained for the start date. Using this and "Past Avg Leads for Start" you should be able to have a better idea of how many more leads you might be able to expect before the start date.
+
+#### [Unassigned Leads Breakdown Table]{.underline}
+
+**Lead-Enrolled:** Count of records *currently* in each status of all records that are not assigned to a start date.
+
+**Prediction:** Starita Solutions' prediction of the number of enrollments you could anticipate from the unassigned records in your CRM.

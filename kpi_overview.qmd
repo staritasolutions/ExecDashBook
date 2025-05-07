@@ -1,0 +1,65 @@
+# KPI Overview
+
+### Census {.unnumbered}
+
+**Data Source:** Freedom Adhoc Report
+
+**Calculation:** Count of students with attendance status of "Currently Attending"
+
+### LOA {.unnumbered}
+
+**Data Source:** Freedom Adhoc Report
+
+**Calculation:** Count of students with attendance status of "Leave of Absence"
+
+### YTD Drops {.unnumbered}
+
+**Data Source:** Freedom Adhoc Report
+
+**Calculation:** Count of students with a drop date within the current year
+
+### YTD Reenrolls {.unnumbered}
+
+**Data Source:** Freedom Adhoc Report
+
+**Calculation:** Count of students with a Reenroll date within the current year
+
+### YTD Net Drop % {.unnumbered}
+
+**Data Source:** Freedom Adhoc Report
+
+**Calculation:** $\frac{(\texttt{YTD Drops} - \texttt{YTD Reenrolls}) \times \texttt{Days Remaining in Year}}{ \texttt{Census}}$
+
+### Hours {.unnumbered}
+
+**Data Source:** Freedom Attendance Report
+
+**Calculation:** Sum of all hours
+
+### Attendance {.unnumbered}
+
+**Data Source:** Freedom Attendance Report
+
+**Calculation:** Sum of all hours divided by sum of all scheduled hours
+
+### Service \$ {.unnumbered}
+
+**Data Source:** Meevo API
+
+**Calculation:** Sum of all service sales
+
+### Product \$ {.unnumbered}
+
+**Data Source:** Meevo API
+
+**Calculation:** Sum of all product sales
+
+### Rebooking % {.unnumbered}
+
+See [Meevo Section](#rebooking-descrip) for details.
+
+### Lead {.unnumbered}
+
+**Data Source:** CRM
+
+**Calculation:** Count of CRM records with "Date Submitted" within selected date range

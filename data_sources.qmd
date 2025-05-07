@@ -1,0 +1,29 @@
+# Data Sources {#data-sources}
+
+## CRM
+
+**Source:** Direct connection to CRM database
+
+**Schedule:** Updated weekly Tuesday mornings
+
+## FAME
+
+We are dependent on FAME delivering accurate and timely data sets to our data warehouse.
+
+### Attendance {.unnumbered}
+
+**Source:** Advantage and Freedom file exports from FAME
+
+**Schedule:** Updated daily at the end of day
+
+### Adhoc Student Data {.unnumbered}
+
+**Source:** Advantage and Freedom file exports from FAME
+
+**Schedule:** Updated Monday mornings (1/week)
+
+## Meevo
+
+**Source:** Meevo Daily Data Stream API (https://dds.meevoapi.com/Introduction.htm)
+
+**Schedule:** Updated daily at the end of day
