@@ -189,13 +189,13 @@ window.Quarto = {
   <ul>
   <li><a href="#service-sales" id="toc-service-sales" class="nav-link active" data-scroll-target="#service-sales">Service Sales</a></li>
   <li><a href="#product-sales" id="toc-product-sales" class="nav-link" data-scroll-target="#product-sales">Product Sales</a></li>
-  <li><a href="#rebooking" id="toc-rebooking" class="nav-link" data-scroll-target="#rebooking">Rebooking %</a></li>
+  <li><a href="#rebooking-descrip" id="toc-rebooking-descrip" class="nav-link" data-scroll-target="#rebooking-descrip">Rebooking %</a></li>
   <li><a href="#average-ticket" id="toc-average-ticket" class="nav-link" data-scroll-target="#average-ticket">Average Ticket</a></li>
   <li><a href="#guests-serviced" id="toc-guests-serviced" class="nav-link" data-scroll-target="#guests-serviced">Guests Serviced</a></li>
   <li><a href="#bottlesguest" id="toc-bottlesguest" class="nav-link" data-scroll-target="#bottlesguest">Bottles/Guest</a></li>
   <li><a href="#guestsfpweek" id="toc-guestsfpweek" class="nav-link" data-scroll-target="#guestsfpweek">Guests/FP/Week</a></li>
   <li><a href="#th" id="toc-th" class="nav-link" data-scroll-target="#th">TH %</a></li>
-  <li><a href="#learning-leader-tabs" id="toc-learning-leader-tabs" class="nav-link" data-scroll-target="#learning-leader-tabs"><span class="header-section-number">5.1</span> Learning Leader Tabs</a></li>
+  <li><a href="#learning-leader-tabs" id="toc-learning-leader-tabs" class="nav-link" data-scroll-target="#learning-leader-tabs">Learning Leader Tabs</a></li>
   </ul>
 </nav>
     </div>
@@ -224,56 +224,56 @@ window.Quarto = {
 <section id="service-sales" class="level3">
 <h3 class="anchored" data-anchor-id="service-sales">Service Sales</h3>
 <p>This is the sum of all sales made through a service.</p>
-<p><em>Recreation in Meevo:</em> Number can be found in an MA225 report as <span class="math inline">\(\texttt{Service} - \texttt{Refunds}\)</span></p>
-<p><em>North Star Group Only:</em> Number can be found in an MA225 report as <span class="math inline">\(\texttt{Service} + \texttt{Gift Cards} + \texttt{Mem. EFTs}\)</span> minus all corresponding refunds</p>
+<p><strong>Recreation in Meevo:</strong> Number can be found in an MA225 report as <span class="math display">\[\texttt{Service} - \texttt{Refunds}\]</span></p>
+<p><em>North Star Group Only:</em> Number can be found in an MA225 report as <span class="math display">\[\texttt{Service} + \texttt{Gift Cards} + \texttt{Mem. EFTs} - \texttt{All Corresponding Refunds}\]</span></p>
 <p><em>August Group Only:</em> Number can be found in an MA225 report as either <span class="math inline">\(\texttt{Service}\)</span> or <span class="math inline">\(\texttt{Packages}\)</span> minus all corresponding refunds (depending on the “Sale Type Selection”)</p>
 </section>
 <section id="product-sales" class="level3">
 <h3 class="anchored" data-anchor-id="product-sales">Product Sales</h3>
 <p>This is the sum of all Product sales</p>
-<p><em>Recreation in Meevo:</em> Number can be found in an MA225 report as <span class="math inline">\(\texttt{Retail} - \texttt{Refunds}\)</span></p>
+<p><strong>Recreation in Meevo:</strong> Number can be found in an MA225 report as <span class="math display">\[\texttt{Retail} - \texttt{Refunds}\]</span></p>
 <p><em>Bella Capelli Group Only:</em> Number cannot be found in Meevo as we subtract all doll heads and apparel from the total product sales</p>
 </section>
-<section id="rebooking" class="level3">
-<h3 class="anchored" data-anchor-id="rebooking">Rebooking %</h3>
+<section id="rebooking-descrip" class="level3">
+<h3 class="anchored" data-anchor-id="rebooking-descrip">Rebooking %</h3>
 <p>This is the percentage of appointments that were rebooked at or before the time of checkout.</p>
-<p>This number cannot be found in Meevo because the logic to identify an appointment as rebooked is slightly different. The logic Meevo uses can be found <a href="https://docs.meevo.com/multi-location/MoreInfo/RebookRules.htm?rhhlterm=rebooks%20rebooking%20rebook%20rebooked&amp;rhsearch=rebook">here</a>.</p>
+<p><strong>Recreation in Meevo:</strong> Number cannot be found in Meevo because the logic to identify an appointment as rebooked is slightly different. The logic Meevo uses can be found <a href="https://docs.meevo.com/multi-location/MoreInfo/RebookRules.htm?rhhlterm=rebooks%20rebooking%20rebook%20rebooked&amp;rhsearch=rebook">here</a>.</p>
 <p>We consider an appointment rebooked if:</p>
 <ol type="1">
 <li>The appointment was completed</li>
-<li>There exists in the future an appointment with the same client that was created before or on the day of the appointment</li>
+<li>A future appointment with the same client exists that was booked before or on the day of the appointment of interest</li>
 </ol>
-<p>We believe this simple logic captures reflects accurately what rebooking means in the context of Paul Mitchell Schools. Although this number cannot be recreated in Meevo it should be similar to the numbers that can be found in the AQ150 and AQ150b reports in Meevo.</p>
+<p>We believe this simple logic reflects accurately what rebooking means in the context of Paul Mitchell Schools. Although this number cannot be recreated in Meevo it should be similar to the numbers that can be found in the AQ150 and AQ150b reports in Meevo.</p>
 </section>
 <section id="average-ticket" class="level3">
 <h3 class="anchored" data-anchor-id="average-ticket">Average Ticket</h3>
 <p>This is the average ticket amount for all “Sales Tickets” in the date range</p>
-<p><em>Recreation in Meevo:</em> Number can be found in the MR090 report under “Client Stats” (Although this report can only be pulled monthly)</p>
+<p><strong>Recreation in Meevo:</strong> Number can be found in the MR090 report under “Client Stats” (Although this report can only be pulled monthly)</p>
 <p><em>Bella Capelli Group Only:</em> Number will be slightly different from the MR090 report because doll heads and apparel are removed from product sales and therefore removed from ticket sales.</p>
 </section>
 <section id="guests-serviced" class="level3">
 <h3 class="anchored" data-anchor-id="guests-serviced">Guests Serviced</h3>
-<p>This is the sum of all guests serviced. More specifically, this is the sum of unique guests serviced each day in the date range. In the case of a client being serviced multiple times in a day, they are only counted once. However, if they are serviced multiple times on different days within the date range, they are counted once for each day they were serviced.</p>
-<p><em>Recreation in Meevo:</em> Number can be found in the MR130 report by <strong>manually adding</strong> the ‘# Unique Clients Clients Buying Servs.’ for each day. The total in this report will not give you this same number as the total is not calculated as the sum of daily unique clients, but rather the # of unique clients over the entire date range.</p>
+<p>This is the sum of all guests serviced. More specifically, this is the sum of unique guests serviced each day in the date range. In the case of a client being serviced multiple times on the same day, they are only counted once. However, if they are serviced multiple times on different days within the date range, they are counted once for each day they were serviced.</p>
+<p><strong>Recreation in Meevo:</strong> Number can be found in the MR130 report by <strong>manually adding</strong> the ‘# Unique Clients Clients Buying Servs.’ for each day. The total in this report will not give you this same number as the total is not calculated as the sum of daily unique clients, but rather the # of unique clients over the entire date range.</p>
 <p><em>Bella Capelli Group Only:</em> Number should in most cases match the total in the ‘# Unique Clients Clients Buying Servs.’ column in the MR130 report. As discussed, there are rare cases where this number will be 1 or 2 off. It should not be off more than a few.</p>
 </section>
 <section id="bottlesguest" class="level3">
 <h3 class="anchored" data-anchor-id="bottlesguest">Bottles/Guest</h3>
-<p>This is the average number of bottles sold per guest serviced. This is calculated by taking the total number of bottles sold and dividing it by the number of guests serviced, calculated as described above: <span class="math inline">\(\frac{\texttt{Total Bottles Sold}}{\texttt{Total Guests Serviced}}\)</span></p>
-<p><em>Recreation in Meevo:</em> Number cannot be found in Meevo</p>
+<p>This is the average number of bottles sold per guest serviced. This is calculated by taking the total number of bottles sold and dividing it by the number of guests serviced, calculated as described above: <span class="math display">\[\frac{\texttt{Total Bottles Sold}}{\texttt{Total Guests Serviced}}\]</span></p>
+<p><strong>Recreation in Meevo:</strong> Number cannot be found in Meevo</p>
 </section>
 <section id="guestsfpweek" class="level3">
 <h3 class="anchored" data-anchor-id="guestsfpweek">Guests/FP/Week</h3>
 <p>This is the average number of guests serviced per future professional per week. This number is calculated by taking the total number of guests serviced as described above and dividing it by the number of future professionals that serviced a client in that week. This metric is calculated for each week and then the average is taken over the date range selected.</p>
-<p><em>Recreation in Meevo:</em> Number cannot be found in Meevo</p>
+<p><strong>Recreation in Meevo:</strong> Number cannot be found in Meevo</p>
 </section>
 <section id="th" class="level3">
 <h3 class="anchored" data-anchor-id="th">TH %</h3>
 </section>
-<section id="learning-leader-tabs" class="level2" data-number="5.1">
-<h2 data-number="5.1" class="anchored" data-anchor-id="learning-leader-tabs"><span class="header-section-number">5.1</span> Learning Leader Tabs</h2>
+<section id="learning-leader-tabs" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="learning-leader-tabs">Learning Leader Tabs</h2>
 <p>The Learning Leader tabs keep track of the metrics listed above for each Learning Leader. In Meevo, Learning Leaders are attached to specific sales and appointments, so we simply calculate the metrics for each Learning Leader.</p>
-<p><em>Recreation in Meevo:</em> None of these metrics can be found easily in Meevo as Meevo doesn’t provide reporting designed to report specific metrics for Learning Leaders.</p>
+<p><strong>Recreation in Meevo:</strong> None of these metrics can be found easily in Meevo as Meevo doesn’t provide reporting designed for Learning Leader specific metrics.</p>
 
 
 </section>

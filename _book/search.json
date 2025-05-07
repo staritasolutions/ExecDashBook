@@ -114,7 +114,7 @@
     "href": "meevo.html",
     "title": "5  Meevo",
     "section": "",
-    "text": "Service Sales\nThis is the sum of all sales made through a service.\nRecreation in Meevo: Number can be found in an MA225 report as \\(\\texttt{Service} - \\texttt{Refunds}\\)\nNorth Star Group Only: Number can be found in an MA225 report as \\(\\texttt{Service} + \\texttt{Gift Cards} + \\texttt{Mem. EFTs}\\) minus all corresponding refunds\nAugust Group Only: Number can be found in an MA225 report as either \\(\\texttt{Service}\\) or \\(\\texttt{Packages}\\) minus all corresponding refunds (depending on the “Sale Type Selection”)",
+    "text": "Service Sales\nThis is the sum of all sales made through a service.\nRecreation in Meevo: Number can be found in an MA225 report as \\[\\texttt{Service} - \\texttt{Refunds}\\]\nNorth Star Group Only: Number can be found in an MA225 report as \\[\\texttt{Service} + \\texttt{Gift Cards} + \\texttt{Mem. EFTs} - \\texttt{All Corresponding Refunds}\\]\nAugust Group Only: Number can be found in an MA225 report as either \\(\\texttt{Service}\\) or \\(\\texttt{Packages}\\) minus all corresponding refunds (depending on the “Sale Type Selection”)",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Meevo</span>"
     ]
@@ -143,8 +143,8 @@
     "objectID": "meevo.html#learning-leader-tabs",
     "href": "meevo.html#learning-leader-tabs",
     "title": "5  Meevo",
-    "section": "5.1 Learning Leader Tabs",
-    "text": "5.1 Learning Leader Tabs\nThe Learning Leader tabs keep track of the metrics listed above for each Learning Leader. In Meevo, Learning Leaders are attached to specific sales and appointments, so we simply calculate the metrics for each Learning Leader.\nRecreation in Meevo: None of these metrics can be found easily in Meevo as Meevo doesn’t provide reporting designed to report specific metrics for Learning Leaders.",
+    "section": "Learning Leader Tabs",
+    "text": "Learning Leader Tabs\nThe Learning Leader tabs keep track of the metrics listed above for each Learning Leader. In Meevo, Learning Leaders are attached to specific sales and appointments, so we simply calculate the metrics for each Learning Leader.\nRecreation in Meevo: None of these metrics can be found easily in Meevo as Meevo doesn’t provide reporting designed for Learning Leader specific metrics.",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Meevo</span>"
     ]
