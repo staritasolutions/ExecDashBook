@@ -260,7 +260,7 @@ window.Quarto = {
 <section id="bottlesguest" class="level3">
 <h3 class="anchored" data-anchor-id="bottlesguest">Bottles/Guest</h3>
 <p>This is the average number of bottles sold per guest serviced. This is calculated by taking the total number of bottles sold and dividing it by the number of guests serviced, calculated as described above: <span class="math display">\[\frac{\texttt{Total Bottles Sold}}{\texttt{Total Guests Serviced}}\]</span></p>
-<p><strong>Recreation in Meevo:</strong> Number cannot be found in Meevo</p>
+<p><strong>Recreation in Meevo:</strong> Approximate number can be found in the summary page of the MA200 report. This number again will be a little different because Meevo will only count a guest once in a date range. While our guest count counts a guest multiple times if they are serviced multiple days within the date range.</p>
 </section>
 <section id="guestsfpweek" class="level3">
 <h3 class="anchored" data-anchor-id="guestsfpweek">Guests/FP/Week</h3>
@@ -269,6 +269,13 @@ window.Quarto = {
 </section>
 <section id="th" class="level3">
 <h3 class="anchored" data-anchor-id="th">TH %</h3>
+<p>Take Home % is the percentage of clients who were serviced that also bought take home. The calculation is done in the following manner: <span class="math display">\[\frac{\texttt{Total Serviced Guests That Bought Take Home}}{\texttt{Total Guests Serviced}}\]</span></p>
+<p><strong>Recreation in Meevo:</strong> A comparable number can be found in the MR090 report. This number, however, will be different because it is simply the unique number of guests who bought retail divided the total number of unique guest visits over the date range. There are a couple fundamental differences in Meevo’s logic:</p>
+<ol type="1">
+<li>A guest is only counted once in the date range</li>
+<li>A guest who bought retail but was not serviced is counted in the numerator of the calculation</li>
+</ol>
+<p>Because the tracking of Take Home % is done to evaluate the art of selling product to clients who are being serviced (not clients who walk in to just purchase product), we believe that the way we calculate this number is more appropriate.</p>
 </section>
 <section id="learning-leader-tabs" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="learning-leader-tabs">Learning Leader Tabs</h2>

@@ -4,11 +4,9 @@
 
 This is the sum of all sales made through a service.
 
-**Recreation in Meevo:** Number can be found in an MA225 report as 
-$$\texttt{Service} - \texttt{Refunds}$$
+**Recreation in Meevo:** Number can be found in an MA225 report as $$\texttt{Service} - \texttt{Refunds}$$
 
-*North Star Group Only:* Number can be found in an MA225 report as 
-$$\texttt{Service} + \texttt{Gift Cards} + \texttt{Mem. EFTs} - \texttt{All Corresponding Refunds}$$
+*North Star Group Only:* Number can be found in an MA225 report as $$\texttt{Service} + \texttt{Gift Cards} + \texttt{Mem. EFTs} - \texttt{All Corresponding Refunds}$$
 
 *August Group Only:* Number can be found in an MA225 report as either $\texttt{Service}$ or $\texttt{Packages}$ minus all corresponding refunds (depending on the "Sale Type Selection")
 
@@ -16,21 +14,20 @@ $$\texttt{Service} + \texttt{Gift Cards} + \texttt{Mem. EFTs} - \texttt{All Corr
 
 This is the sum of all Product sales
 
-**Recreation in Meevo:** Number can be found in an MA225 report as 
-$$\texttt{Retail} - \texttt{Refunds}$$
+**Recreation in Meevo:** Number can be found in an MA225 report as $$\texttt{Retail} - \texttt{Refunds}$$
 
 *Bella Capelli Group Only:* Number cannot be found in Meevo as we subtract all doll heads and apparel from the total product sales
 
 ### Rebooking % {#rebooking-descrip}
 
-This is the percentage of appointments that were rebooked at or before the time of checkout. 
+This is the percentage of appointments that were rebooked at or before the time of checkout.
 
 **Recreation in Meevo:** Number cannot be found in Meevo because the logic to identify an appointment as rebooked is slightly different. The logic Meevo uses can be found [here](https://docs.meevo.com/multi-location/MoreInfo/RebookRules.htm?rhhlterm=rebooks%20rebooking%20rebook%20rebooked&rhsearch=rebook).
 
 We consider an appointment rebooked if:
 
-1. The appointment was completed
-2. A future appointment with the same client exists that was booked before or on the day of the appointment of interest
+1.  The appointment was completed
+2.  A future appointment with the same client exists that was booked before or on the day of the appointment of interest
 
 We believe this simple logic reflects accurately what rebooking means in the context of Paul Mitchell Schools. Although this number cannot be recreated in Meevo it should be similar to the numbers that can be found in the AQ150 and AQ150b reports in Meevo.
 
@@ -46,16 +43,15 @@ This is the average ticket amount for all "Sales Tickets" in the date range
 
 This is the sum of all guests serviced. More specifically, this is the sum of unique guests serviced each day in the date range. In the case of a client being serviced multiple times on the same day, they are only counted once. However, if they are serviced multiple times on different days within the date range, they are counted once for each day they were serviced.
 
-**Recreation in Meevo:** Number can be found in the MR130 report by **manually adding** the '# Unique Clients Clients Buying Servs.' for each day. The total in this report will not give you this same number as the total is not calculated as the sum of daily unique clients, but rather the # of unique clients over the entire date range. 
+**Recreation in Meevo:** Number can be found in the MR130 report by **manually adding** the '\# Unique Clients Clients Buying Servs.' for each day. The total in this report will not give you this same number as the total is not calculated as the sum of daily unique clients, but rather the \# of unique clients over the entire date range.
 
-*Bella Capelli Group Only:* Number should in most cases match the total in the '# Unique Clients Clients Buying Servs.' column in the MR130 report. As discussed, there are rare cases where this number will be 1 or 2 off. It should not be off more than a few.
+*Bella Capelli Group Only:* Number should in most cases match the total in the '\# Unique Clients Clients Buying Servs.' column in the MR130 report. As discussed, there are rare cases where this number will be 1 or 2 off. It should not be off more than a few.
 
 ### Bottles/Guest
 
-This is the average number of bottles sold per guest serviced. This is calculated by taking the total number of bottles sold and dividing it by the number of guests serviced, calculated as described above: 
-$$\frac{\texttt{Total Bottles Sold}}{\texttt{Total Guests Serviced}}$$
+This is the average number of bottles sold per guest serviced. This is calculated by taking the total number of bottles sold and dividing it by the number of guests serviced, calculated as described above: $$\frac{\texttt{Total Bottles Sold}}{\texttt{Total Guests Serviced}}$$
 
-**Recreation in Meevo:** Number cannot be found in Meevo
+**Recreation in Meevo:** Approximate number can be found in the summary page of the MA200 report. This number again will be a little different because Meevo will only count a guest once in a date range. While our guest count counts a guest multiple times if they are serviced multiple days within the date range.
 
 ### Guests/FP/Week
 
@@ -65,13 +61,18 @@ This is the average number of guests serviced per future professional per week. 
 
 ### TH %
 
+Take Home % is the percentage of clients who were serviced that also bought take home. The calculation is done in the following manner:
+$$\frac{\texttt{Total Serviced Guests That Bought Take Home}}{\texttt{Total Guests Serviced}}$$
 
+**Recreation in Meevo:** A comparable number can be found in the MR090 report. This number, however, will be different because it is simply the unique number of guests who bought retail divided the total number of unique guest visits over the date range. There are a couple fundamental differences in Meevo's logic:
+
+1. A guest is only counted once in the date range
+2. A guest who bought retail but was not serviced is counted in the numerator of the calculation
+
+Because the tracking of Take Home % is done to evaluate the art of selling product to clients who are being serviced (not clients who walk in to just purchase product), we believe that the way we calculate this number is more appropriate. 
 
 ## Learning Leader Tabs {.unnumbered}
 
 The Learning Leader tabs keep track of the metrics listed above for each Learning Leader. In Meevo, Learning Leaders are attached to specific sales and appointments, so we simply calculate the metrics for each Learning Leader.
 
 **Recreation in Meevo:** None of these metrics can be found easily in Meevo as Meevo doesn't provide reporting designed for Learning Leader specific metrics.
-
-
-
