@@ -12,6 +12,10 @@ book:
     - crm.qmd
     - freedom.qmd
     - meevo.qmd
+  sidebar:
+    logo: www/SS_Logo_Black.png
+    title: ""
+    
 
 number-depth: 2
 
