@@ -18,6 +18,8 @@ This is the sum of all Product sales
 
 *Bella Capelli Group Only:* Number cannot be found in Meevo as we subtract all doll heads and apparel from the total product sales
 
+*North Star Group Only:* This number may be different because we remove hair extensions from the total product sales (along with any other dashboard metric).
+
 ### Rebooking % {#rebooking-descrip}
 
 This is the percentage of appointments that were rebooked at or before the time of checkout.
@@ -61,15 +63,9 @@ This is the average number of guests serviced per future professional per week. 
 
 ### TH %
 
-Take Home % is the percentage of clients who were serviced that also bought take home. The calculation is done in the following manner:
-$$\frac{\texttt{Total Serviced Guests That Bought Take Home}}{\texttt{Total Guests Serviced}}$$
+Take Home % is the percentage of total clients that bought take home. The calculation is done in the following manner: $$\frac{\texttt{Total Guests That Bought Take Home}}{\texttt{Total Guests}}$$
 
-**Recreation in Meevo:** A comparable number can be found in the MR090 report. This number, however, will be different because it is simply the unique number of guests who bought retail divided the total number of unique guest visits over the date range. There are a couple fundamental differences in Meevo's logic:
-
-1. A guest is only counted once in the date range
-2. A guest who bought retail but was not serviced is counted in the numerator of the calculation
-
-Because the tracking of Take Home % is done to evaluate the art of selling product to clients who are being serviced (not clients who walk in to just purchase product), we believe that the way we calculate this number is more appropriate. 
+**Recreation in Meevo:** A comparable number can be found in the MR090 report. This number, however, will be different because it is simply the unique number of guests who bought retail divided by the total number of unique guest visits over the date range. Both the number of guests who bought Take Home and the number of guest visits are calculated differently (see the "Guests Serviced" metric for details).
 
 ## Learning Leader Tabs {.unnumbered}
 
