@@ -65,7 +65,7 @@ This is the average number of guests serviced per future professional per week. 
 
 Take Home % is the percentage of total clients that bought take home. The calculation is done in the following manner: $$\frac{\texttt{Total Guests That Bought Take Home}}{\texttt{Total Guests}}$$
 
-**Recreation in Meevo:** A comparable number can be found in the MR090 report. This number, however, will be different because it is simply the unique number of guests who bought retail divided by the total number of unique guest visits over the date range. Both the number of guests who bought Take Home and the number of guest visits are calculated differently (see the "Guests Serviced" metric for details).
+**Recreation in Meevo:** A comparable number can be found in the MR090 report. This number, however, will be different because it is simply the unique number of guests who bought retail divided by the total number of unique guest visits over the date range. We calculate both the number of guests who bought Take Home and the number of guest visits differently (see the "Guests Serviced" metric for details).
 
 ## Learning Leader Tabs {.unnumbered}
 
